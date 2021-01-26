@@ -12,7 +12,7 @@ body {
    border-bottom: 5px solid #c0b000;
   margin-bottom: 10%;
   height: 100vh;
-  background-image: url(https://cdn.glitch.com/b5976ca4-ee2d-4fdd-8533-e1ec5d68c300%2F50637709227_4c2d4dbd40_k.jpg?v=1611498697079);
+  background-image: url(https://live.staticflickr.com/4020/4334994930_1c32f6e5f3_z.jpg);
   background-size: cover;
 }
 .introwrapper h1 {
@@ -145,4 +145,8 @@ a {
 footer .logowrapper p,time{
     font-size:.7em;
   color:black;
+}
+
+footer p{
+  text-align: center;
 }
