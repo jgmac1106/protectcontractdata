@@ -1,4 +1,4 @@
-Make a DFARS Data Cheat Cheat
+Make a DFARS Data Cheat Sheet
 =================
 
 Learn about the differences of Federal Contract Information and Controlled Classified Information while learnign CSS grid. You can remix this for your use. Just remember to include the license and use the same CC-BY-SA license.
