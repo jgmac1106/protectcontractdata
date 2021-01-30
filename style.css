@@ -12,7 +12,7 @@ body {
    border-bottom: 5px solid #c0b000;
   margin-bottom: 10%;
   height: 100vh;
-  background-image: url(https://live.staticflickr.com/4020/4334994930_1c32f6e5f3_z.jpg);
+  background-image: url(https://live.staticflickr.com/40/111073132_1bcae44a9e_z.jpg);
   background-size: cover;
 }
 .introwrapper h1 {
@@ -150,82 +150,24 @@ footer .logowrapper p,time{
 footer p{
   text-align: center;
 }
-
-@media print {
-  body {
-  margin: 10pt;
-  font-size:12pt;
-  }
-  .introwrapper {
-  display: none
-  }
-  .logowrapper img {
-    width:20%;
-  }
-  .logowrapper h1 {
-  font-size: 10pt;
-   text-align: center;
-  font-family: 'Cinzel', serif;
-  
+.bigwrapper {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+  margin-bottom:3%;
 }
-.logowrapper p {
- font-size: 16pt;
-   text-align: center;
- 
-  
-}
-.lineborder {
- border-bottom: 5px solid black;
-  margin-bottom: 2pt;
-  
-}
-  .box3 {
+.bigbox {
   border-style: groove;
-  border-radius: 2pt;
+  grid-column:2;
+  border-radius: 5px;
   padding: 20px;
-  font-size: 12pt;
+  font-size: 150%;
 }
-.box2 {
-  background-color: white;
-  color: black;
-  border-radius: 0;
-  border-width: 5pt;
-  border-color:black;
-  padding: 5pt;
-  font-size: 12pt;
+.bigbox h3 {
+font-size: 3.4vw;
 }
-
-.box {
-  background-color:white;
-  color: black;
-  border-radius: 0;
-  border-width: 5pt;
-  padding: 5pt;
-  border-color:black;
-  font-size: 12pt;
-}
-
-h2 {
-  text-align: center;
-  font-family: 'Cinzel', serif;
-    font-size: 3.0vh;
-}
-h3 {
-  text-align: center;
-  font-family: 'Cinzel', serif;
-    font-size: 1.5vh;
-  nav {
-    display:none;
-  }
-  .wrapper::after {
-  content: "Check out https://fcivscui.com for the latest version of this information.";
-}
-  a[href^="http"]:not([href*="example.com"]):after {
-  content: " (" attr(href) ")";
-}
-  
-  
-}
-@page {
-  size: 11in 8.5in;
+ .logowrapper  .sponsor {
+  font-size: 3.3vw;
 }
