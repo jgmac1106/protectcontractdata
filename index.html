@@ -25,13 +25,14 @@
         <p>
            <a class="u-url" rel="me" href="https://www.cyberdataintelligence.com/" title="CyberDI"><img class="u-featured u-photo" src="https://static.wixstatic.com/media/c20de7_adfa08baacb54c6fbb5c90599e9ac9d3~mv2.png/v1/fill/w_1484,h_486,al_c,q_90,usm_0.66_1.00_0.01/CYBERDI_LOGO.webp" alt="cyberdi"></a></p>
       </div>   
-    <time class="dt-published" datetime="2021-01-30T15:59:00+0000">30<sup>th</sup> January 2021</time>
+   
       <nav>
           <ul>
             <li><a  href="#fcivscui">FCI and CUI</a></li>
             <li><a href="#cuitemplate">Company CUI Template</a></li>
             <li><a href="#cuisubtemplate">Subcontractor CUI Template</a></li>
             <li><a href="#fcicheatsheet">FCI CMMC Level One Cheatsheet</a></li>
+            <li><a href="#accesscontrolcheatsheet">Jargon Explained: Access Control</a></li>
           </ul>
         </nav>
 </div>
@@ -602,9 +603,170 @@ Acquisition & Sustainment </a>
    </div>
     </footer> 
   </div>
-    <footer><p>
+    <div class="h-entry" id="accesscontrolcheatsheet">
+    <div class="logowrapper">
+      <h1 class="p-name"><span style="color:#823E92">Jargon Explained: Access Control</span></h1>
+  <div class="lineborder">
+    <a class="u-author" href="/"></a>
+    <a class="u-url" href="https://fcivscui.com#accesscontrolcheatsheet"></a>
+  <p class="p-summary">A simplified guide to help you understand Access Control.</p>
+    <img class="u-featured" src="https://static.wixstatic.com/media/c20de7_adfa08baacb54c6fbb5c90599e9ac9d3~mv2.png/v1/fill/w_1484,h_486,al_c,q_90,usm_0.66_1.00_0.01/CYBERDI_LOGO.webp">
+    <p class="logoprompt">
+      {Insert Company logo by changing image link}
+    </p>
+</div>
+</div>
+<div class="bigwrapper e-content">
+  <div class="bigbox c">
+    <h3>What is Access Control?</h3>
+      <p>Cybersecurity begins and ends with access control. You must know who resides in your system and what stuff they can access. At home you keep track of who has keys, a cell phone account, and wifi password. Do the same at work with user names and passwords.</p>
+    <p>NIST SP 800-192 "Verfication and Test Methods for Access Control Policies/Moddels" defines access control polcies as:
+    </p>
+    <blockquote>
+      high level requirements that specify how access is managed and who, under what circumstances, may access what information
+    </blockquote>
+    <p>
+      Access policies can apply to specific users and roles, such as only giving accounting access to financials. Access control policies can also get assigned at the appliclation so you need to know a vendor's policy before buying any technology.
+    </p>
+    <p>
+      This guide explains both {Company Name}'s  Access Control policies and settings as well as level one and three CMMC practices and processes
+    </p>
+    </div>
+  <div class="bigbox d"><h3>How do Access Control Policies Work?</h3>
+    <p>Access control policies establish organizational boundaries that limit information based on units, need-to-know, authority or any number of business siutations that require the legal access to information</p>
+    <p>Inside your network or data flow, how information moves across physical and digital spaces, boundaries act as places to stop access. This also means boundaries by design can break. Protecting these weaknesses through access control policy builds a foundation of cybersecurity
+    </p>
+  </div>
+  <div class="bigbox e"><h3>Where do Access Control Policies Live?</h3>
+    <p>You may create one document where all your access control policies live but focus on doing business better first. As you craft company training and documentation consider where your accesc control policies already live.</p>
+    <p>
+      Employee handbooks will describe if people can bring devices to work or connect work devices to home networks. They will describe rules banning the sharing of credentials. Human resource onboarding and exiting documents contain your access control policy. You need to review how accounts get made and include rules about where data gets transfered when employees leave. Your privacy policy may explain the rules abotu who can release data to the public or how guests can connect to your network. Vendor agreements need to explain how FCI or CUI gets shared, encrypted, and destroyed.
+    </p>
+    <p>
+      Focus first on including access control policies into company cuture. Then when creating your overall Access Control Policy document refer back to these company policies. This will allow you to handle the dynamic nature of a changing business world.
+    </p>
+  </div>
+  <div class="bigbox f">
+    <h3>
+     Do differences in Access Control Policies matter?
+    </h3>
+    <p>Access control policies fall into two types of buckets: discretionary polices based on on identity and non-discretionary polcies based on rules</p>
+    <p>
+      {Company Name} uses {type of access control poicy}
+    </p>
+  </div>
+  <div class="bigbox g">
+    <h3>Why can I not use Discretionary Based Access Control Policy in Government Contracting</h3>
+   <p>
+     The Federal Government considers DBAC, Discretionary Based Access Control, policies to weak for the contracting community. If you assign access at the user level you can not control who copies the file. Other users could also transfer ownership. Finally other users could mess with the data and change stuff like publication dates.
+    </p>
+</div>
+  <div class="bigbox h">
+    <h3>What makes Non-Discretionary Access Control safer?</h3>
+    <p>You will need to make decisions about personal devices. You either have to provide devices to employees like lap tops and cell phones or use mobild device management. The other solution is to allow no off site access or of the clock work. The Fars 21 clause requires you to limit,"use of external information systems"</p>
+  <p>
+    With NDAC, or non-discretionary access control, policies the user does not get rights over the object. The user can not change who has control of an object. This means NDAC policies rquire an Andimistrator to control access policies.
+    </p>
+</div>
+  <div class="bigbox i">
+    
+    <h3>Can I control who has access?</h3>
+    <p>
+      In mandatory access control (MAC) policies a central authority, or scrutinizer, controls access. You get to decide who gets garage door openers. If you receieve CUI, for example, you not change the CUI category nor the specified regulations that protect the CUI.
+    </p>
+  </div>
+  <div class="bigbox j">
+    
+    <h3>What types of Non-Discretionary can I use?</h3>
+    <p>
+      NDAC controls can use static or dynamic rules. Static policies, which do not change include multi-level security, attrribute based access control, and rule based access control.</p>
+    <ul>
+      <li>Multilevel Security-creates rules at the object level and user level. You may for example have a category of users called engineer. You then can then have file categorized by their tools. Only people in the engineering category can access the "tools" files. Multi-level security also arises as we adopt more and more cloud or software as a service solutions. You need to match your access policy with the different configurations of all your vendors.</li>
+      <li>Attribute Based-Create controls, or constraints that limit access based on both policies and rules together. Say you wanted to ensure people took the weekend off, or more likely did not access a file at home. You could set it so only complaince officers can see the document but ut can nto be opened after 5:00 on a Friday.</li>
+      <li>Role Based-RBAC policies assign access by users. Must businesses use role based access control polcies.  Mandatory access control (MAC) assign the roles.</li>
+    </ul>
+    <p>Under Seperation of Duty, a dynamic set of rules, you do not assign enough priviledges to anyone to misue the system on the own. One child may hold the garage door opener, but only parents have keys to the car. Dynamic seperatation of duties can include two people having to have a safety deposit box keys. In terms of data two people maybe required to release data publicly or to execute commands on a system.
+    </p>
+  </div>
+  <div class="bigbox j">
+    <h3>What Constraints can I use under Seperation of Duty policies?</h3>
+   <p>
+     You can use a simple, or static, separation of duty that says no member can have two exclusive roles. So if a user gets marked as "Teacher" in a school they could not also get assigned to the "Principal" role
+    </p>
+    <p>
+      In terms of dynamic separation of duty policies NIST identifies four types:
+    </p>
+     <ul>
+      <li>Simple Dynamic Separation of Duties- A user can have two assigned exlusive roles but never at the same time.</li>
+      <li>Object-based Seperation of Duties-A user can have two exclusive roles but not share an object, or file between the roles</li>
+      <li>Operational Seperation of Duties A user can have access to exclusive roles but only for specific parts of a project or their job, and not for all workflows.</li>
+    <li>Historical Seperation of Duties.A user can have exclusive roles assigned over an entire workflow but can only use a specific role for anyone object. So an employee may access a document as a project manager but not a compliance officer</li>
+    </ul>
+</div>
+   <div class="bigbox">
+    <h3>Where does Access Control Policy Go Wrong?</h3>
+     Access Control Faults, places where constraints fail to protect datas on the boundaried translate to people and bad policy. People will always find Access Control faults. Your new marketing hire, amy really want to play their Spotify list and they know their way around a network. 
+<p>
+  These faults fall along the following lines:
+     </p>
+     <ul>
+       <li>Priviledge Leakage-I see what I shouldn't</li>
+       <li>Priviledge Blocking-The email spam filter blocked me from getting what I need</li>
+       <li>Inheritence Leakage-I shared a CUI file with someone and they gave the file out to those without a reason for lawful access</li>
+       <li>Priviledge Conflict-I need access to an object but because I am assigned to these two roles I can not open it</li>
+       <li>Multi-policies-So many different apps with so many different rules. How do I keep the access control policies straight?</li>
+     </ul>
+  </div>
+  <div class="bigbox l">
+    <h3>What is an Access Control Model</h3>
+    <h4>
+     Time to Call a Professional
+    </h4>
+    <p>
+      Access control models present the security policies you enforce through your access control mechanisms, the procedures and controls that limi who sees what.
+    </p>
+    <p>
+      ACM create a visual of the theoretical limitations and boundaries of your access control policies. You will want to include and ACM in your system security plan. You also will want to work with a professional to ensure an accurate model
+    </p>
+</div>
+  <div class="bigbox m">
+    <h3>How do I Instituionalize Access Control Policies.</h3>
+    <p>
+      You can adapt the Enterprise Considerations NIST suggests as part of the <a href="https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-100.pdf">system development life cycle</a></p>
+    <p>
+      <strong>Establish the business use case</strong> If you want to add a new tool that requries additional access policies make sure you really need the tool or you are not paying for similar functionality somewherre else. Every new software and policy introduces new faults.
+    </p>
+    <p>
+      <strong>Consider the Bigger Picture</strong>. What does your larger network look like? What does the new tool do to your access control model? How do you report security for compliance? What documents have to change? What training do employees require?
+    </p>
+    <p>
+      <strong>Refine Business Processes</strong>. You will ignore this advice but make the required changes before signing the purchasing order or moving the pilot from staging to deployment. Demand a sandbox from vendors sequestered from your network. Storage is cheap. You have leverage. You also need to consider and integrate how roles and attributes are assigned to  users and data.
+    </p>
+     <p>
+      <strong>Test for Interoperability</strong>. Look for third party interoperability certifications. Do not trust a logo on a website. Test the interoperability with your system.
+    </p>
+    <p>
+      <strong>Feasability and Usability</strong> Does the cost of the tool, both price and long term compliance, bring enough value? Doe the tool work? What happens in low signal areas? Do my threat awareness tools integrate?
+    </p>
+    <p>
+      <strong>Refine Access Control Model</strong> You need to map the flow of access control between your system and the new tool and understand how different user attributes match.
+    </p>
+</div> 
+      </div>
+ <footer>
+      <div class="logowrapper"><p>Published <time class="dt-published" datetime="2021-02-13 11:27:00">13<sup>th</sup>February 2021</time> by <span class="p-author">jgmac1106</span>  shared under a
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
       
-      All code given an MIT license. Please check and respect the license of each post.<br/>
-      <small><a title="Pratt Whitney 4098 turbofan intake" href="https://flickr.com/photos/niallkennedy/111073132">"Pratt Whitney 4098 turbofan intake"</a> by <a href="https://flickr.com/people/niallkennedy">niallkennedy</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc/2.0/">CC BY-NC</a> </small></p></footer>
+   </div>
+    </footer> 
+  </div>
+    <footer>
+       <p>Originally Published:
+      <time class="dt-published" datetime="2021-01-30T15:59:00+0000">30<sup>th</sup> January 2021</time></p>
+      <p>
+        Updated
+    <time class="dt-updated" datetime="2021-02-13T11:20:00+0000">13<sup>th</sup> Febuary 2021</time> <br><small>All code given an MIT license. Please check and respect the license of each post.</small><br>
+      <small>Featured Image: <a title="Pratt Whitney 4098 turbofan intake" href="https://flickr.com/photos/niallkennedy/111073132">"Pratt Whitney 4098 turbofan intake"</a> by <a href="https://flickr.com/people/niallkennedy">niallkennedy</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc/2.0/">CC BY-NC</a> </small> </p>
+      </footer>
   </body>
 </html>
